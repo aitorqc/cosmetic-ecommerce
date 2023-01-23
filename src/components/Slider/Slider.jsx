@@ -14,8 +14,11 @@ export default function Slider() {
         <div className="s_container">
             <Swiper
                 breakpoints={{
-                    640: {
+                    840: {
                         slidesPerView: 3,
+                    },
+                    640: {
+                        slidesPerView: 2,
                     },
                     0: {
                         slidesPerView: 1
