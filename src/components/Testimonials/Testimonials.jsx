@@ -1,5 +1,5 @@
 import React from 'react';
-import {Swiper} from 'swiper/react';
+import { Swiper } from 'swiper/react';
 import { SwiperSlide } from 'swiper/react';
 
 import css from "./Testimonials.module.css";
@@ -32,6 +32,17 @@ export default function Testimonials() {
                     slidesPerGroup={1}
                     spaceBetween={20}
                     className={css.tCarousel}
+                    breakpoints={{
+                        820: {
+                            slidesPerView: 3
+                        },
+                        640:{
+                            slidesPerView: 2
+                        },
+                        0:{
+                            slidesPerView: 1
+                        }
+                    }}
                 >
                     {
                         TestimonialsData.map((testimonial, i) => (
