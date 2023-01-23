@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Product from "./components/Product/Product";
 import Slider from "./components/Slider/Slider";
+import Testimonials from "./components/Testimonials/Testimonials";
 import Virtual from "./components/Virtual/Virtual";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Slider />
       <Virtual />
       <Product />
+      <Testimonials />
     </div>
   );
 }

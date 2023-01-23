@@ -13,7 +13,7 @@ export default function Slider() {
     return (
         <div className="s_container">
             <Swiper
-            modules={[Pagination, Navigation]}
+                modules={[Pagination, Navigation]}
                 className="mySwiper"
                 navigation={true}
                 loopFillGroupWithBlank={true}
